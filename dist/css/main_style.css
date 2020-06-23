@@ -1,4 +1,41 @@
 body {
-  background: red;
+  background: gray;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-container {
+  position: relative;
+  top: -125px;
+}
+
+.footer {
+  margin-top: 10rem;
+}
+
+.icon-box {
+  border: 3px solid greenyellow;
+}
+
+.border-1 {
+  border: 3px solid white;
+}
+
+.border-2 {
+  border: 3px solid black;
+}
+
+.border-3 {
+  border: 3px solid blue;
+}
+
+.border-4 {
+  border: 3px solid yellow;
+}
+
+.border-5 {
+  border: 3px solid greenyellow;
 }
 /*# sourceMappingURL=main_style.css.map */

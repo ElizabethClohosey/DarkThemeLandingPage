@@ -75,6 +75,42 @@ ul {
   padding: 0 2.25rem;
 }
 
+// ========================
+// Stay Productive Section
+// ========================
+
+.productive-section {
+  img {
+    width: 100%;
+  }
+}
+
+.productive-information {
+  width: 95%;
+
+  h3 {
+    font-size: 2rem;
+    width: 90%;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  a {
+    color: $accentCyan;
+    font-size: 0.5rem;
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid $accentCyan;
+
+    .arrow-icon {
+      height: 15px;
+      width: 15px;
+      margin-left: 0.5rem;
+    }
+  }
+}
+
 // ===============
 // Footer
 // ===============

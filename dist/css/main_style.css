@@ -59,6 +59,36 @@ ul {
   padding: 0 2.25rem;
 }
 
+.productive-section img {
+  width: 100%;
+}
+
+.productive-information {
+  width: 95%;
+}
+
+.productive-information h3 {
+  font-size: 2rem;
+  width: 90%;
+}
+
+.productive-information p {
+  font-size: 0.75rem;
+}
+
+.productive-information a {
+  color: #65e2d9;
+  font-size: 0.5rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid #65e2d9;
+}
+
+.productive-information a .arrow-icon {
+  height: 15px;
+  width: 15px;
+  margin-left: 0.5rem;
+}
+
 .footer-container {
   position: relative;
   top: -125px;

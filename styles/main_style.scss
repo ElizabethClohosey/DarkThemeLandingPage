@@ -1,5 +1,8 @@
+@import "../styles/utilities/variables";
+
 body {
   background: gray;
+  color: white;
   // background-image: url("../../images/bg-curvy-desktop.svg");
   // background-repeat: no-repeat;
   // background-position: center 10%;
@@ -7,6 +10,35 @@ body {
 
 ul {
   list-style: none;
+  margin-bottom: 0;
+}
+
+.header-content {
+  max-width: 37rem;
+
+  img {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  p {
+    padding: 0.5rem 3rem;
+  }
+
+  button {
+    background: $callToAction;
+    color: white;
+    font-weight: 700;
+    width: 13rem;
+    border: 1px solid white;
+    border-radius: 25px;
+  }
 }
 
 .footer-container {

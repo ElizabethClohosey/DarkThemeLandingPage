@@ -15,6 +15,31 @@ ul {
   margin-top: 10rem;
 }
 
+.form-container {
+  max-width: 35rem;
+  margin: auto;
+}
+
+.phone-icon:before {
+  display: inline-block;
+  content: " ";
+  background-image: url("../../images/icon-phone.svg");
+  background-size: 20px 15px;
+  height: 15px;
+  width: 20px;
+  margin-right: 0.5rem;
+}
+
+.email-icon:before {
+  display: inline-block;
+  content: " ";
+  background-image: url("../../images/icon-email.svg");
+  background-size: 20px 15px;
+  height: 15px;
+  width: 20px;
+  margin-right: 0.5rem;
+}
+
 .icon-box {
   border: 3px solid greenyellow;
 }

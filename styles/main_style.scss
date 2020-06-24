@@ -18,6 +18,42 @@ ul {
   margin-top: 10rem;
 }
 
+.form-container {
+  max-width: 35rem;
+  margin: auto;
+}
+
+//  Adding location icon before footer p
+// .location-icon:before {
+//   display: inline-block;
+//   content: " ";
+//   background-image: url("../../images/icon-location.svg");
+//   background-size: 15px 15px;
+//   height: 15px;
+//   width: 15px;
+//   margin-right: 0.5rem;
+// }
+
+.phone-icon:before {
+  display: inline-block;
+  content: " ";
+  background-image: url("../../images/icon-phone.svg");
+  background-size: 20px 15px;
+  height: 15px;
+  width: 20px;
+  margin-right: 0.5rem;
+}
+
+.email-icon:before {
+  display: inline-block;
+  content: " ";
+  background-image: url("../../images/icon-email.svg");
+  background-size: 20px 15px;
+  height: 15px;
+  width: 20px;
+  margin-right: 0.5rem;
+}
+
 .icon-box {
   border: 3px solid greenyellow;
 }

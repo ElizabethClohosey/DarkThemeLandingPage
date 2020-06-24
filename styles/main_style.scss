@@ -151,19 +151,23 @@ ul {
 // ===============
 // Footer
 // ===============
+.footer {
+  margin-top: 10rem;
+}
 
 .footer-container {
   position: relative;
   top: -125px;
 }
 
-.footer {
-  margin-top: 10rem;
-}
-
-.form-container {
+.form {
   max-width: 35rem;
   margin: auto;
+  padding: 0 3rem;
+
+  p {
+    font-size: 0.5rem;
+  }
 }
 
 //  Adding location icon before footer p

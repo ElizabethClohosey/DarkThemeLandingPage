@@ -135,7 +135,7 @@ ul {
 .form {
   max-width: 35rem;
   margin: auto;
-  padding: 0 3rem;
+  padding: 1rem 2rem 0.5rem;
 }
 
 .form .form-group {
@@ -159,7 +159,6 @@ ul {
 
 .form p {
   font-size: 0.5rem;
-  padding: 0 1.5rem;
 }
 
 .form .custom-btn {
@@ -174,24 +173,40 @@ ul {
   border: none;
 }
 
-.phone-icon:before {
+.footer-information p {
+  font-size: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.footer-information .phone-icon p:before {
   display: inline-block;
   content: " ";
   background-image: url("../../images/icon-phone.svg");
   background-size: 20px 15px;
   height: 15px;
   width: 20px;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
-.email-icon:before {
+.footer-information .email-icon p:before {
   display: inline-block;
   content: " ";
   background-image: url("../../images/icon-email.svg");
   background-size: 20px 15px;
   height: 15px;
   width: 20px;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+}
+
+.footer-information a {
+  font-size: 0.75rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-information ion-icon {
+  font-size: 32px;
 }
 
 .border-1 {
@@ -213,4 +228,3 @@ ul {
 .border-5 {
   border: 3px solid greenyellow;
 }
-/*# sourceMappingURL=main_style.css.map */

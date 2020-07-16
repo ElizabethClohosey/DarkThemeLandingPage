@@ -42,7 +42,6 @@ header {
   color: white;
   font-weight: 700;
   width: 13rem;
-  border: 1px solid white;
   border-radius: 25px;
 }
 
@@ -233,24 +232,4 @@ header {
 
 .footer-information ion-icon {
   font-size: 32px;
-}
-
-.border-1 {
-  border: 3px solid white;
-}
-
-.border-2 {
-  border: 3px solid black;
-}
-
-.border-3 {
-  border: 3px solid blue;
-}
-
-.border-4 {
-  border: 3px solid yellow;
-}
-
-.border-5 {
-  border: 3px solid greenyellow;
 }

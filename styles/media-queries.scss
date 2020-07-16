@@ -1,0 +1,67 @@
+@media screen and (max-width: 475px) {
+  nav {
+    img {
+      height: 50px;
+      width: 100px;
+    }
+
+    li {
+      font-size: 0.5rem;
+      letter-spacing: 1px;
+    }
+  }
+
+  header {
+    padding-bottom: 7rem;
+  }
+
+  .header-content {
+    img {
+      height: 300px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      padding: 1rem;
+      font-size: 0.85rem;
+    }
+  }
+
+  .icon-box {
+    margin-bottom: 5rem;
+  }
+
+  .productive-section {
+    h3 {
+      width: 100%;
+      font-size: 1rem;
+      margin: 3rem 0 1rem;
+    }
+  }
+
+  .testimonials-section {
+    .col-md-4 {
+      margin-bottom: 1.5rem;
+    }
+
+    .testimonials {
+      background-position: 2.5rem -0.5rem;
+    }
+  }
+
+
+
+
+  .footer {
+    
+  }
+}
+
+// @media only screen and (max-width: 601px) {
+//   .footer-container {
+//     top: 0;
+//   }
+// }

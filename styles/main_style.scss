@@ -52,7 +52,7 @@ header {
     color: white;
     font-weight: 700;
     width: 13rem;
-    border: 1px solid white;
+    // border: 1px solid white;
     border-radius: 25px;
   }
 }
@@ -274,29 +274,3 @@ header {
     font-size: 32px;
   }
 }
-.border-1 {
-  border: 3px solid white;
-}
-.border-2 {
-  border: 3px solid black;
-}
-.border-3 {
-  border: 3px solid blue;
-}
-.border-4 {
-  border: 3px solid yellow;
-}
-.border-5 {
-  border: 3px solid greenyellow;
-}
-
-//  Adding location icon before footer p
-// .location-icon:before {
-//   display: inline-block;
-//   content: " ";
-//   background-image: url("../../images/icon-location.svg");
-//   background-size: 15px 15px;
-//   height: 15px;
-//   width: 15px;
-//   margin-right: 0.5rem;
-// }
